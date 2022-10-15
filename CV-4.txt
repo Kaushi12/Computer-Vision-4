@@ -1,0 +1,10 @@
+1) Cyclic learning rates (and cyclic momentum, which usually goes hand-in-hand) is a learning rate scheduling technique for faster training of a network and a finer understanding of the optimal learning rate. Cyclic learning rates have an effect on the model training process known somewhat fancifully as "superconvergence".
+To apply cyclic learning rate and cyclic momentum to a run, begin by specifying a minimum and maximum learning rate and a minimum and maximum momentum. Over the course of a training run, the learning rate will be inversely scaled from its minimum to its maximum value and then back again, while the inverse will occur with the momentum. At the very end of training the learning rate will be reduced even further, an order of magnitude or two below the minimum learning rate, in order to squeeze out the last bit of convergence.
+
+8)There are two types of Pooling: Max Pooling and Average Pooling . Max Pooling returns the maximum value from the portion of the image covered by the Kernel. On the other hand, Average Pooling returns the average of all the values from the portion of the image covered by the Kernel.
+
+9)Pooling Layer The main purpose of pooling layer is to progressively reduce the spatial size of the input image, so that number of computations in the network are reduced. Pooling performs downsampling by reducing the size and sends only the important data to next layers in CNN.
+
+10)However, if you introduce fully connected layer, you provide your model with ability to mix signals, since every single neuron has a connection to every single one in the next layer, now there is a flow of information between each input dimension (pixel location) and each output class, thus the decision is based truly
+
+11) an arbitrary constant whose value characterizes a member of a system (such as a family of curves) also : a quantity (such as a mean or variance) that describes a statistical population.
